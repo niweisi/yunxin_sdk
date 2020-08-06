@@ -1,0 +1,24 @@
+{
+    "name": "niweisi/yunxin_sdk",
+    "description": "网易云信SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "niweisi",
+            "email": "paopian@ppblog.cn",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*",
+        "ext-zlib": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "niweisi\\yunxin_sdk\\": "./src/"
+        }
+    }
+}
